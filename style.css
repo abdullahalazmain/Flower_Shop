@@ -2,7 +2,7 @@
 :root {
     --text-color:#272727FF;
     --p-text-color: #27272799;
-    --btn-color: #e55473FF;
+    --s-color: #e55473FF;
 
 }
 /* universal styles */
@@ -20,6 +20,11 @@
     max-width: 1440px;
     margin: 0 auto;
 }
+.heading{
+    color: var(--text-color);
+    font-weight: 800;
+    font-size: 40px;
+}
 .description{
     font-weight: 400;
     color: var(--p-text-color);
@@ -27,7 +32,7 @@
     line-height: 1.67;
 }
 .btn{
-    background-color: var(--btn-color);
+    background-color: var(--s-color);
     border-radius: 8px;
     border-style: none;
     padding: 20px 43px;
@@ -56,4 +61,122 @@
     font-weight: 800;
     font-size: 80px;
     font-style: normal;
+}
+
+/* feature */
+#feature-section{
+    text-align: center;
+    padding-top: 178px;
+}
+#feature-flower{
+    display: flex;
+    justify-content: space-between;
+    gap: 30px;
+    margin-top: 48px;
+}
+.flower-card{
+    text-align: center;
+}
+.flower-box{
+    border-radius: 300px 300px 0px 0px;
+    width: 464px;
+    height: 538px;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    margin-bottom: 32px;
+    overflow: hidden;
+    
+}
+.flower-card a{
+    color: var(--text-color);
+    font-weight: 700;
+    font-size: 24px;
+}
+#feature-card{
+    margin-top: 128px;
+    background-color: #2727270D;
+    border-radius: 8px;
+    display: flex;
+    padding: 86px 175px;
+    justify-content: center;
+    gap: 95px;
+}
+.feature-p{
+    color: var(--text-color);
+    font-weight: 600;
+    font-size: 24px;
+    margin-top: 24px;
+}
+/* deal */
+
+#deal{
+    background-color: #e554730D;
+    margin-top: 128px;
+}
+#deal-div{
+    display: flex;
+    text-align: center;
+    justify-content: space-around;
+    align-items: center;
+}
+#instagram{
+    text-align: center;
+    padding-top: 128px;
+}
+#ins-img{
+    margin-top: 48px;
+    display: flex;
+    gap: 24px;
+}
+#subscribe{
+    margin-top: 128px;
+    background-image: url(./FlowerAsset/Rectangle\ 9.png);
+    background-repeat: no-repeat;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+#subs-heading{
+    padding-top: 121px;
+}
+#email-box{
+    padding-bottom: 121px;
+}
+#email-input{
+    width: 700px;
+    height: 64px;
+    border-radius: 8px;
+    border-style: none;
+    padding-left: 22px;
+    margin-right: 16px;
+}
+
+#footer{
+    background-color: #111010FF;
+    height: 449px;
+    margin-top: 128px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 24px;
+    text-align: center;
+}
+#footer-logo{
+    color: #e55473FF;
+    font-size: 48px;
+    font-weight: 800;
+}
+#footer-logo span{
+    color: #ffffffFF;
+}
+#footer-description{
+    color: #ffffffE5;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 1.6666666666666667;
+}
+#footer small{
+    color: #ffffff66;
 }
