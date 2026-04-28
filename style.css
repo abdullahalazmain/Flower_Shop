@@ -1,0 +1,59 @@
+/* Custom CSS Style */
+:root {
+    --text-color:#272727FF;
+    --p-text-color: #27272799;
+    --btn-color: #e55473FF;
+
+}
+/* universal styles */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/* Common Style */
+.lato_font {
+  font-family: "Lato", sans-serif;
+  font-optical-sizing: auto;
+}
+.all_container{
+    max-width: 1440px;
+    margin: 0 auto;
+}
+.description{
+    font-weight: 400;
+    color: var(--p-text-color);
+    margin-top: 24px;
+    line-height: 1.67;
+}
+.btn{
+    background-color: var(--btn-color);
+    border-radius: 8px;
+    border-style: none;
+    padding: 20px 43px;
+    font-weight: 700;
+    font-size: 20px;
+    color: #ffffffFF;
+    margin-top: 32px;
+}
+
+
+/* custom styles */
+
+/* hero */
+#hero_section{
+    background-color: #e554731A;
+}
+#hero_div{
+    display: flex;
+    align-items: center;
+    gap: 97px;
+    padding-top: 50px;
+}
+
+.hero_heading{
+    color: var(--text-color);
+    font-weight: 800;
+    font-size: 80px;
+    font-style: normal;
+}
